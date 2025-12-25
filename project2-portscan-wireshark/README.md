@@ -26,5 +26,4 @@ A SYN scan was generated using Nmap against a local target. The resulting traffi
 - This pattern can help SOC analysts quickly identify potential reconnaissance activity for further triage.
 
 ## Evidence
-Redacted screenshot(s) are available here:
-- [Screenshots folder](./screenshots)
+Redacted Wireshark capture screenshots are included in the screenshots folder.
