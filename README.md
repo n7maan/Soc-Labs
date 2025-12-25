@@ -14,4 +14,4 @@ This repository contains my hands-on SOC / Blue Team home lab projects focused o
 
 ## About Me
 
-I am a recent Cyber Security graduate (Canada) building real SOC skills through practical labs and documentation.
+I am a Cyber Security graduate (Canada) building real SOC skills through practical labs and documentation.
