@@ -12,6 +12,10 @@ This repository contains my hands-on SOC / Blue Team home lab projects focused o
   Simulated reconnaissance activity using Nmap and detected SYN scan patterns in Wireshark using TCP flag filtering.  
   📂 Folder: [project2-portscan-wireshark](./project2-portscan-wireshark)
 
+- **Project 3 – Phishing Email Analysis (IOC Extraction)**  
+  Analyzed a suspicious phishing email and extracted key IOCs (sender/domain/IP/URL) using Gmail “Show original” with evidence screenshots.  
+  📂 Folder: [project3-phishing-email-analysis](./project3-phishing-email-analysis)
+
 ## About Me
 
 I am a Cyber Security graduate (Canada) building real SOC skills through practical labs and documentation.
