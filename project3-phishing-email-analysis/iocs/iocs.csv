@@ -1,0 +1,7 @@
+indicator,type,where_found,why_suspicious,confidence,action
+tlcqsupportdn@mxmfcbxinzbskbJwofdirad.com,Email Address,Gmail Original Message (From),Random sender domain not tied to a known provider,High,Block/Quarantine + search for similar
+mxmfcbxinzbskbJwofdirad.com,Domain,Gmail Original Message (From),Random-looking domain used in phishing-themed message,High,Block domain + hunt for matches
+38.111.111.223,IP,Gmail Original Message (SPF),Infrastructure associated with suspicious email,Medium,Monitor/Block after enrichment
+DKIM=FAIL,Email Auth,Gmail Original Message,DKIM failure indicates message integrity/authentication issue,High,Flag as suspicious + strengthen auth policy
+DMARC=FAIL,Email Auth,Gmail Original Message,DMARC failure indicates domain alignment/authentication failure,High,Flag as suspicious + reject/quarantine policy
+Subject: Your Cloud Account has been locked... photos and videos will be removed!,Subject/Lure,Gmail Subject,Scare/urgency lure commonly used in phishing,Medium,Create mail rule / alert on similar subjects
