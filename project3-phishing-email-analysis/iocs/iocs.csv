@@ -5,3 +5,5 @@ mxmfcbxinzbskbJwofdirad.com,Domain,Gmail Original Message (From),Random-looking 
 DKIM=FAIL,Email Auth,Gmail Original Message,DKIM failure indicates message integrity/authentication issue,High,Flag as suspicious + strengthen auth policy
 DMARC=FAIL,Email Auth,Gmail Original Message,DMARC failure indicates domain alignment/authentication failure,High,Flag as suspicious + reject/quarantine policy
 Subject: Your Cloud Account has been locked... photos and videos will be removed!,Subject/Lure,Gmail Subject,Scare/urgency lure commonly used in phishing,Medium,Create mail rule / alert on similar subjects
+https://storage.googleapis.com/vcxbiuouioui/IMd02.html#/cuprraa.html?od=1syl694a562570e8b_vl_opnvl_0w34.1ymtkfc.O0000rjome52oi50k6_x11155.jome5Mml0Y2F1LTBqNnVydXY0p49bd,URL,Email Body (copied link),Untrusted link hosted on public cloud storage path used for phishing pages,High,Block URL + search for matches
+storage.googleapis.com,Domain,Email Body (URL domain),Legitimate Google host but abused for malicious hosting,Medium,Monitor/Block specific URL path (not the full domain)
